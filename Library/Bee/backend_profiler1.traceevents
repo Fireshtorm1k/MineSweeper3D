@@ -1,0 +1,473 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682607367346765, "dur":769, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367347538, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682607367347615, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682607367347627, "dur":490, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682607367348161, "dur":775, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367348937, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555696, "dur":249, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555945, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555958, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555961, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555969, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555972, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555978, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555980, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555986, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555988, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555994, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367555996, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556003, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556005, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556010, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556012, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556018, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556031, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367556056, "dur":1458, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682607367348594, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367348946, "dur":5777, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367354736, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682607367354746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367356716, "dur":572, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682607367357293, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682607367357358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367357776, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682607367360715, "dur":902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682607367361620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367361626, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682607367364916, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682607367365060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367365065, "dur":71425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682607367436550, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367436712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367436831, "dur":9111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367445991, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367446172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367446177, "dur":6872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367453105, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367453259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367453263, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367456311, "dur":1190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367457504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367457524, "dur":4263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367461837, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367462016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367462178, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367465381, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367465597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367465601, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367469936, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367470083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367470087, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367472419, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367472573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367472576, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367475503, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367475746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367475754, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367480378, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367480564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367480569, "dur":2895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367483515, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367484048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367484054, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367487359, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367487596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367487600, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367489688, "dur":3101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367492791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367492795, "dur":4311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682607367497168, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682607367497240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367497245, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682607367499187, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682607367499246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367499250, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682607367501208, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682607367501279, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682607367501282, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1682607367503082, "dur":52608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367348601, "dur":349, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367348951, "dur":5810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367354761, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682607367355010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367358280, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682607367361736, "dur":1331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682607367363069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367363074, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682607367365532, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper.exe" }}
+,{ "pid":12345, "tid":2, "ts":1682607367365963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367365966, "dur":69986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper.exe" }}
+,{ "pid":12345, "tid":2, "ts":1682607367436017, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367436157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367436765, "dur":8657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367445479, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367445651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367445656, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367450093, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367450253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367450259, "dur":5357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367455673, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367455822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367455826, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367457904, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367458158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367458164, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367462453, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367462621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367462626, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367465720, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367465843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367465847, "dur":4094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367469994, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367470240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367470246, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367472919, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367473151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367473155, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367476314, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367476495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367476500, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367480957, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367481390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367481394, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367484130, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367484298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367484303, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367487398, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367487555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367487560, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367489690, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367490217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367490223, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367492247, "dur":4583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367496835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682607367496843, "dur":5753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682607367502643, "dur":53053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367348673, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367348974, "dur":5754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367354737, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1682607367355007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367358037, "dur":3495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1682607367361591, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682607367362434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367362709, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682607367364681, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1682607367364853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367364858, "dur":71038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1682607367435982, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367436208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367436805, "dur":9109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367445960, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367446130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367446135, "dur":4423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367450595, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367450701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367450705, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367456178, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367456367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367456371, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367458279, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367458505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367458509, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367461837, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367462023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367462028, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367465163, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367465319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367465357, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367468019, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367468233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367468238, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367471731, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367471863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367471867, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367475132, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367475302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367475307, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367478521, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367478857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367478861, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367481344, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367481547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367481552, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367484134, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367484492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367484497, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367488354, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367488549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367488555, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367490523, "dur":1329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367491855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367491861, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367494009, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367494370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367494375, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682607367495991, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1682607367496030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367496033, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1682607367499294, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1682607367499353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367499360, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1682607367501025, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1682607367501077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682607367501080, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1682607367502615, "dur":53079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367348634, "dur":325, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367348959, "dur":5779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367354738, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1682607367355171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367357383, "dur":4079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1682607367361529, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682607367361814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367362724, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682607367365049, "dur":12671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367377722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367430321, "dur":6774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367437155, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367437308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367438685, "dur":7845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367446584, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367446720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367446724, "dur":6891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367453667, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367453824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367453830, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367457007, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367457372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367457376, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367460883, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367461106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367461111, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367463244, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367463390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367463394, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367466926, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367467087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367467091, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367471137, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367471280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367471285, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367474405, "dur":1300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367475749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367475756, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367480318, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367480563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367480589, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367483697, "dur":2857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367486557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367486561, "dur":5257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367491871, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367492132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367492138, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367494454, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367494614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367494618, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682607367497698, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682607367497747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367497750, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682607367499670, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1682607367499722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367499726, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1682607367501462, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1682607367501520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682607367501526, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1682607367503365, "dur":52336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367348668, "dur":297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367348966, "dur":5765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367354737, "dur":1410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682607367356150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367357372, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682607367360835, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682607367361043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367361238, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682607367365137, "dur":70341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367435483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367435822, "dur":9808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367445687, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367445914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367445922, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367450085, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367450239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367450243, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367454233, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367454345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367454349, "dur":3494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367457905, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367458291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367458297, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367461965, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367462197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367462202, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367465703, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367466167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367466172, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367470479, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367470614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367470619, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367473024, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367473191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367473196, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367475670, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367475817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367475823, "dur":4410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367480289, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367480556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367480562, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367483619, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367483895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367483899, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367486473, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367486661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367486665, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367488884, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367489618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367489627, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367492232, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367492457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367492461, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682607367494859, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1682607367494913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367494917, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1682607367497474, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1682607367497550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682607367497555, "dur":22584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1682607367520178, "dur":35519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367348782, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367348989, "dur":5743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367354737, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682607367355438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367357218, "dur":4408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682607367361695, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682607367361873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367362195, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682607367365515, "dur":18673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1682607367384191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367384196, "dur":53005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1682607367437262, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367437391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367438691, "dur":7835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367446600, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367446734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367446737, "dur":6941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367453733, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367453892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367453897, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367457025, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367457198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367457202, "dur":2478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367459745, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367459911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367459917, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367462236, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367462393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367462397, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367465770, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367466171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367466175, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367468288, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367468407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367468411, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367471668, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367471799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367471862, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367475826, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367476037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367476042, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367480222, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367480431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367480437, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367482211, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367482396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367482400, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367484240, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367484668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367484672, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367488352, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367488626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367488631, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367491928, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367492310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367492315, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682607367494671, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1682607367494716, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367494868, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1682607367497921, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1682607367498064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367498068, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1682607367500581, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1682607367500624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682607367500627, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1682607367502697, "dur":53012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367348715, "dur":265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367348980, "dur":5745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367354736, "dur":1170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1682607367355909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367357743, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1682607367361109, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682607367361269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367361274, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682607367364107, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682607367364256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367364262, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682607367366413, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1682607367366528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367431189, "dur":22847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1682607367454093, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367454272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367454275, "dur":3328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367457652, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367457844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367457849, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367461284, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367461411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367461414, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367463585, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367463696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367463699, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367466959, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367467121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367467125, "dur":3832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367471044, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367471280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367471285, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367474368, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367474520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367474524, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367476720, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367476830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367476833, "dur":4215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367481092, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367481627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367481630, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367485470, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367486323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367486328, "dur":2979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367489357, "dur":3030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367492390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367492395, "dur":5334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682607367497832, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1682607367498033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367498041, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1682607367500180, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1682607367500218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367500241, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1682607367501663, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MineSweeper_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1682607367501798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682607367501802, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MineSweeper_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1682607367503400, "dur":52293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682607367348748, "dur":235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682607367348983, "dur":5754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682607367354737, "dur":1303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1682607367356043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682607367357393, "dur":3406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1682607367360862, "dur":968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1682607367361833, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682607367361858, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1682607367365151, "dur":167116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MineSweeper3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682607367532290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682607367532295, "dur":23322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MineSweeper3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682607367555666, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1682607367555669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682607367558852, "dur":1873, "ph":"X", "name": "ProfilerWriteOutput" }
+,
