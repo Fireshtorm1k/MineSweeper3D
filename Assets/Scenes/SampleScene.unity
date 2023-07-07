@@ -1375,12 +1375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tilePrefab: {fileID: 75565168488078168, guid: 97e4a2df6ee5f7747ae5b3b52a98d66d, type: 3}
-  _cam: {fileID: 963194228}
-  _mine: {fileID: 7813451313379365737, guid: 20c0206807bd3d1478b01ef41758b989, type: 3}
   mineCountTMPText: {fileID: 146054638}
-  odd: {fileID: 2100000, guid: f659d095ddac2ff4d8dc371a59197264, type: 2}
-  even: {fileID: 2100000, guid: 19466c947c0d63246802ad20b23830e7, type: 2}
-  text: {fileID: 957233776}
 --- !u!4 &2102503853
 Transform:
   m_ObjectHideFlags: 0
@@ -1407,7 +1402,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9b49b10c998f2794cac89c387a6c8af1, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

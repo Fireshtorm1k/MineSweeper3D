@@ -18,7 +18,7 @@ public class OnNumber : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        if (!Tile.isused)
+        if (!Tile.isDefeat)
         {
             Collider[] overlappedColliders = Physics.OverlapBox(center, rad);
             foreach (Collider coll in overlappedColliders)
@@ -36,18 +36,18 @@ public class OnNumber : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if (!Tile.isused)
+        if (!Tile.isDefeat)
         {
             Collider[] overlappedColliders = Physics.OverlapBox(center, rad);
             foreach (Collider coll in overlappedColliders)
             {
-                if (coll.gameObject.GetComponent<Tile>() != null && !Tile.isused)
+                if (coll.gameObject.GetComponent<Tile>() != null && !Tile.isDefeat)
                 {
-                    if (coll.gameObject.GetComponent<Tile>().odd && !Tile.isused)
+                    if (coll.gameObject.GetComponent<Tile>().odd && !Tile.isDefeat)
                     {
                         coll.gameObject.GetComponent<Renderer>().material = odd;
                     }
-                    else if (!coll.gameObject.GetComponent<Tile>().odd && !Tile.isused)
+                    else if (!coll.gameObject.GetComponent<Tile>().odd && !Tile.isDefeat)
                     {
                         coll.gameObject.GetComponent<Renderer>().material = even;
                     }
