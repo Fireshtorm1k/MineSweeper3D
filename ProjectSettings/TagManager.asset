@@ -7,6 +7,12 @@ TagManager:
   - Tile
   - Mine
   - Flag
+  - redOdd
+  - greenOdd
+  - blueOdd
+  - redEven
+  - greenEven
+  - blueEven
   layers:
   - Default
   - TransparentFX
